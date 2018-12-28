@@ -1,0 +1,9 @@
+Fortran formatting stuff
+1X = 1 space char,
+2X = 2 space char...
+I3 = 3 digit of Integer
+F5.1 = xxx.x (fixed)
+All unused places will be padded by space.
+use 
+ 10   FORMAT(1X, I2)
+to condense format declarations
