@@ -3,6 +3,10 @@ from numpy import exp, cos, arccos, sin, arctan, tan, pi, sqrt; from numpy impor
 import matplotlib.pyplot as plt
 from scipy.constants import *
 
+"""
+An exercise from the book An Introduction to Nuclear Materials : K. Linga Murty and Indrajit Charit 
+"""
+
 k_B = k*Avogadro/(1000* calorie)
 def T(temp):
 	return convert_temperature(temp, "C","K")
